@@ -30,10 +30,10 @@ module "route_table_association" {
 }
 
 
-module "elastic_ip" {
-  source = "./modules/elastic_ip"
+# module "elastic_ip" {
+#   source = "./modules/elastic_ip"
 
-}
+# }
 
 
 
